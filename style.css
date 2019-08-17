@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Exo", sans-serif;
+}
+
+h1 {
+  font-size: 7rem;
+  margin-top: 0px;
+  margin-bottom: 55px;
+}
+
+.calculator {
+  flex: 0 0 95%;
+}
+
+.screen {
+  width: 100%;
+  font-size: 7rem;
+  padding: 0.5rem;
+  background: rgb(41, 41, 56);
+  color: white;
+  border: none;
+  font-family: "Exo", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s linear;
+}
+
+button {
+  flex: 0 0 25%;
+  border: 1px solid black;
+  padding: 0.25rem 0;
+  transition: all 2s ease;
+  font-family: "Exo", sans-serif;
+}
+
+button:hover {
+  background: blue;
+}
+
+.btn-yellow {
+  background: orange;
+  color: white;
+}
+
+.btn-grey {
+  background: rgb(224, 224, 224);
+}
+
+.btn,
+.btn-equal,
+.btn-clear {
+  font-size: 4rem;
+}
+
+.btn-equal {
+  background: green;
+}
+
+.btn-clear {
+  background: red;
+}
